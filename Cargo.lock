@@ -1357,7 +1357,7 @@ dependencies = [
 
 [[package]]
 name = "tmnl-protocol"
-version = "0.0.3"
+version = "0.0.9"
 dependencies = [
  "libc",
 ]

@@ -3,6 +3,7 @@ mod blit;
 mod config;
 mod keys;
 mod redis_client;
+mod theme;
 mod ui;
 
 use anyhow::Result;
