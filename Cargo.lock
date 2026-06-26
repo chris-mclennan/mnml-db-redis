@@ -759,6 +759,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "mnml-bridge"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "mnml-db-redis"
 version = "0.1.0"
 dependencies = [
@@ -766,6 +774,7 @@ dependencies = [
  "clap",
  "crossterm",
  "dirs",
+ "mnml-bridge",
  "ratatui",
  "redis",
  "serde",
