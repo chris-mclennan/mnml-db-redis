@@ -770,7 +770,6 @@ dependencies = [
  "redis",
  "serde",
  "tempfile",
- "tmnl-protocol",
  "tokio",
  "toml",
 ]
@@ -1353,13 +1352,6 @@ checksum = "c8323304221c2a851516f22236c5722a72eaa19749016521d6dff0824447d96d"
 dependencies = [
  "displaydoc",
  "zerovec",
-]
-
-[[package]]
-name = "tmnl-protocol"
-version = "0.0.9"
-dependencies = [
- "libc",
 ]
 
 [[package]]
